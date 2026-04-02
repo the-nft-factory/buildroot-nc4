@@ -26,7 +26,7 @@ jobs:
         os: [ linux-intel ]
         include:
           - os: linux-intel
-            runs-on: ubuntu-latest
+            runs-on: blacksmith-32vcpu-ubuntu-2204
             host_arch: x86_64
         config:
           - name: WebOS config
